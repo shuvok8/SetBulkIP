@@ -27,3 +27,4 @@ pause
         cmd_file.write(cmd_content)
 
     print(f"Generated {file_name}")
+# test github loging 

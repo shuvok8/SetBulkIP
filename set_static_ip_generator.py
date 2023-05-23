@@ -10,9 +10,9 @@ def generate_cmd_file(ip_address, subnet_mask, gateway, dns_servers):
     with open('set_static_ip.cmd', 'w') as cmd_file:
         cmd_file.write(cmd_content)
 
-ip_address = '172.40.40.10'
+ip_address = 'xxx.xx.xx.xx'
 subnet_mask = '255.255.254.0'
-gateway = '172.40.40.1'
+gateway = 'xxx.xx.xx.x'
 dns_servers = ['8.8.8.8', '1.1.1.1']
 
 generate_cmd_file(ip_address, subnet_mask, gateway, dns_servers)

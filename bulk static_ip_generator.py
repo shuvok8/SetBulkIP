@@ -1,11 +1,11 @@
 start_ip = 10
 end_ip = 100
-subnet_mask = "255.255.254.0"
-gateway = "172.40.40.1"
+subnet_mask = "255.255.xxx.0"
+gateway = "xxx.xx.xx.x"
 dns_servers = ["8.8.8.8", "1.1.1.1"]
 
 for ip_suffix in range(start_ip, end_ip+1):
-    ip_address = f"172.40.40.{ip_suffix}"
+    ip_address = f"xxx.xx.xx.{ip_suffix}"
 
     # Create the content for the CMD file
     cmd_content = f"""\

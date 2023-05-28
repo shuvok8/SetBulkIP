@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=100%, initial-scale=1.0">
-    <title>SetIP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table {
+            display: table;
+            border-collapse: collapse;
+            }
+        .row {
+            display: table-row;
+        }
+        .cell {
+            display: table-cell;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        h1 {
+           text-align: center;
+        }
+        footer{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-<H1>Update Commining Soon..</H1>
+    <h1>IP Configuration</h1>
+<div class="table">
+    <div class="row header">
+        <div class="cell">IP</div>
+        <div class="cell">Designation</div>
+        <div class="cell">Room No.</div>
+        <div class="cell">MAC Address</div>
+        <div class="cell">Config-file</div>
+        <div class="cell">Done</div>
+        <div class="cell">Action</div>
+    </div>
+    <div class="row">
+        <div class="cell"></div>
+        <div class="cell"><input type="text" id="myInput"></div>
+        <div class="cell"><input type="text" id="myInput"></div>
+        <div class="cell"><input type="text" id="myInput"></div>
+        <div class="cell">Download</div>  
+        <div class="cell"><input type="checkbox" name="yes" id=""> </div>  
+        <div class="cell"><input type="button" value="Submit"></div>
+    </div>
+</div>
+<footer>
+    @shuvok8
+</footer>
 </body>
 </html>
